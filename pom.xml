@@ -12,3 +12,11 @@
         <version>2.1.3.RELEASE</version>
 
     </parent>
+
+<!-- Specified jdk version
+     1.6 is as default
+     -->
+     <properties/>
+        <java.version>1.8</java.version>
+    </properties>
+
