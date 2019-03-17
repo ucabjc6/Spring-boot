@@ -20,3 +20,19 @@
         <java.version>1.8</java.version>
     </properties>
 
+
+<dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+     
+        <!-- 
+              Spring-boot-starter-web: provides dependencies of MVC, AOP...
+          -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+          <!--
+               version will be automatically picked by parent 
+               <version>2.1.3.RELEASE</version>
+               -->
+          </dependency>
+    </dependencies>
