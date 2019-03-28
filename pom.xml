@@ -112,7 +112,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <!-- fork: devtools wont work without this config -->
+                    <!-- fork: devtools wont work without this config,
+                              since, it wont restart-->
                     <fork>true</fork>
                     
                 </configuration>
